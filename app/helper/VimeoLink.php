@@ -38,7 +38,8 @@ class VimeoLink
 
 
         if (!$VimVideo) {
-            return back()->with('error', 'Video Unavailable');
+            echo false;
+//            return back()->with('error', 'Video Unavailable');
         }
 
 
@@ -78,7 +79,8 @@ class VimeoLink
 
         } else {
 
-            return back()->with('error', 'Video is not shareable, please choose another one');
+            echo false;
+//            return back()->with('error', 'Video is not shareable, please choose another one');
 
         }
 
@@ -118,8 +120,9 @@ class VimeoLink
 
         } catch (\Exception $exception) {
 
-            dd($exception);
-            return back()->with('error', ' Ops something went wrong, please try again later!');
+//            dd($exception);
+            echo false;
+//            return back()->with('error', ' Ops something went wrong, please try again later!');
         }
 
 

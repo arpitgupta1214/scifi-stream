@@ -72,7 +72,6 @@ if (url.toString().indexOf("soundcloud.com") !== -1) {
 
                 widget.getVolume(function (volume) {
 
-
                     if (volume === 100) {
                         // widget.play();
                         console.log('playing');

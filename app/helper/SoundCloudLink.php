@@ -22,7 +22,8 @@ class SoundCloudLink
         $streamers = Streamer::where('ip', $this->ip)->get();
 
         if (!$streamers->isEmpty()) {
-            return back()->with('error', 'you already in queue');
+            echo false;
+//            return back()->with('error', 'you already in queue');
         }
 
 
@@ -117,8 +118,9 @@ class SoundCloudLink
 
         } catch (\Exception $exception) {
 
-            dd($exception);
-            return back()->with('error', ' Ops something went wrong, please try again later!');
+            echo false;
+//            dd($exception);
+//            return back()->with('error', ' Ops something went wrong, please try again later!');
         }
 
     }

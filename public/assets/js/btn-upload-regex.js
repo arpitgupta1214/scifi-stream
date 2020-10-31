@@ -22,12 +22,11 @@ function checkUrlAndGo() {
 
 
     } else {
-        
+
         if (YouTubeValidateUrl() === true
             || VimeoValidateUrl() === true
             || DailymotionValidateUrl() === true
-            || SoundCloudValidateUrl() === true)
-        {
+            || SoundCloudValidateUrl() === true) {
             var url = gettingReadyUrl.value;
             var link = document.getElementById('input-link').value;
             var time = document.getElementById('stream-duration').value;
@@ -45,9 +44,6 @@ function checkUrlAndGo() {
                     if (!document.getElementById("stream-duration").validity.rangeOverflow
                         && !document.getElementById("stream-duration").validity.valueMissing) {
 
-                        document.getElementById('upload-btn').style =
-                            "background-color:#00ff01; color:black; border-radius:0; letter-spacing: 0px;";
-                        document.getElementById('upload-btn').innerHTML = "<text>&#161;" + 'success!' + "</text>";
 
                         $.ajax({
                             headers: {
@@ -67,7 +63,12 @@ function checkUrlAndGo() {
                                     .css({
                                         // "display": "block",
                                         "visibility": "visible",
-                                        "font-size":"1.5vw"});
+                                        "font-size": "1.5vw"
+                                    });
+
+                                document.getElementById('upload-btn').style =
+                                    "background-color:#00ff01; color:black; border-radius:0; letter-spacing: 0px;";
+                                document.getElementById('upload-btn').innerHTML = "<text>&#161;" + 'success!' + "</text>";
 
 
                                 setTimeout(function () {
@@ -76,6 +77,7 @@ function checkUrlAndGo() {
 
 
                             },
+
                             error: function (e) {
 
                                 $(".link-already-active-success-div").css({
@@ -112,9 +114,7 @@ function checkUrlAndGo() {
                     if (!document.getElementById("stream-duration").validity.rangeOverflow
                         && !document.getElementById("stream-duration").validity.valueMissing) {
 
-                        document.getElementById('upload-btn').style =
-                            "background-color:#00ff01; color:black; border-radius:0; letter-spacing: 0px;";
-                        document.getElementById('upload-btn').innerHTML = "<text>&#161;" + 'success!' + "</text>";
+
 
                         // var link = document.getElementById('input-link').value;
                         // var time = document.getElementById('stream-duration').value;
@@ -134,11 +134,16 @@ function checkUrlAndGo() {
                             },
                             success: function () {
 
-                                    $(".link-already-active-success-div")
-                                        .css({
-                                            // "display": "block",
-                                            "visibility": "visible",
-                                            "font-size":"1.5vw"});
+                                document.getElementById('upload-btn').style =
+                                    "background-color:#00ff01; color:black; border-radius:0; letter-spacing: 0px;";
+                                document.getElementById('upload-btn').innerHTML = "<text>&#161;" + 'success!' + "</text>";
+
+                                $(".link-already-active-success-div")
+                                    .css({
+                                        // "display": "block",
+                                        "visibility": "visible",
+                                        "font-size": "1.5vw"
+                                    });
 
 
                                 setTimeout(function () {
@@ -184,9 +189,7 @@ function checkUrlAndGo() {
                     if (!document.getElementById("stream-duration").validity.rangeOverflow
                         && !document.getElementById("stream-duration").validity.valueMissing) {
 
-                        document.getElementById('upload-btn').style =
-                            "background-color:#00ff01; color:black; border-radius:0; letter-spacing: 0px;";
-                        document.getElementById('upload-btn').innerHTML = "<text>&#161;" + 'success!' + "</text>";
+
                         // var link = document.getElementById('input-link').value;
                         // var time = document.getElementById('stream-duration').value;
 
@@ -203,13 +206,18 @@ function checkUrlAndGo() {
                                 link: link,
                                 time: time,
                             },
-                            success: function () {
+                            success: function (s) {
+
+                                document.getElementById('upload-btn').style =
+                                    "background-color:#00ff01; color:black; border-radius:0; letter-spacing: 0px;";
+                                document.getElementById('upload-btn').innerHTML = "<text>&#161;" + 'success!' + "</text>";
 
                                 $(".link-already-active-success-div")
                                     .css({
                                         // "display": "block",
                                         "visibility": "visible",
-                                        "font-size":"1.5vw"});
+                                        "font-size": "1.5vw"
+                                    });
 
 
                                 setTimeout(function () {
@@ -253,9 +261,7 @@ function checkUrlAndGo() {
                     if (!document.getElementById("stream-duration").validity.rangeOverflow
                         && !document.getElementById("stream-duration").validity.valueMissing) {
 
-                        document.getElementById('upload-btn').style =
-                            "background-color:#00ff01; color:black; border-radius:0; letter-spacing: 0px;";
-                        document.getElementById('upload-btn').innerHTML = "<text>&#161;" + 'success!' + "</text>";
+
 
                         // var link = document.getElementById('input-link').value;
                         // var time = document.getElementById('stream-duration').value;
@@ -275,11 +281,16 @@ function checkUrlAndGo() {
                             },
                             success: function () {
 
+                                document.getElementById('upload-btn').style =
+                                    "background-color:#00ff01; color:black; border-radius:0; letter-spacing: 0px;";
+                                document.getElementById('upload-btn').innerHTML = "<text>&#161;" + 'success!' + "</text>";
+
                                 $(".link-already-active-success-div")
                                     .css({
                                         // "display": "block",
                                         "visibility": "visible",
-                                        "font-size":"1.5vw"});
+                                        "font-size": "1.5vw"
+                                    });
 
 
                                 setTimeout(function () {
@@ -318,11 +329,9 @@ function checkUrlAndGo() {
 
             document.getElementById('link-input-error').style = 'visibility:visible;';
 
-             $('#link-input-error').delay(3000).fadeOut('slow');
+            $('#link-input-error').delay(3000).fadeOut('slow');
 
         }
-
-
 
 
     }
@@ -347,7 +356,7 @@ function YouTubeValidateUrl() {
             return true;
 
         }
-        return  false;
+        return false;
 
         // else {
         //
@@ -429,7 +438,7 @@ function SoundCloudValidateUrl() {
             // document.getElementById('upload-btn').innerHTML = "<text>&#161;" + 'success!' + "</text>";
             return true;
         }
-        return  false;
+        return false;
         // else {
         //     document.getElementById('link-input-error').style = 'visibility:visible;';
         //

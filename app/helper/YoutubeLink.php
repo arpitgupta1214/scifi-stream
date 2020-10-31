@@ -25,7 +25,8 @@ class YoutubeLink
         $streamers = Streamer::where('ip', $this->ip)->get();
 
         if (!$streamers->isEmpty()) {
-            return back()->with('error', 'you already in queue');
+            echo false;
+//            return back()->with('error', 'you already in queue');
         }
 
         $video_id = Youtube::parseVidFromURL($this->link);
@@ -34,8 +35,11 @@ class YoutubeLink
         $video = Youtube::getVideoInfo($video_id);
 
 
+
+
         if (!$video) {
-            return back()->with('error', 'Video Unavailable');
+            echo false;
+//            return back()->with('error', 'Video Unavailable');
         }
 
         $name = $video->snippet->title;
@@ -83,8 +87,9 @@ class YoutubeLink
 
         } catch (\Exception $exception) {
 
+            echo false;
 //            dd($exception);
-            return back()->with('error', ' Ops something went wrong, please try again later!');
+//            return back()->with('error', ' Ops something went wrong, please try again later!');
         }
 
 

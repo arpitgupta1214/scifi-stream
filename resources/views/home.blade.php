@@ -204,7 +204,7 @@
 
 
                         <div class="link-already-active-error-div" id="link-already-active-error-div">
-                            <button class="link-already-active-error-close">X</button>
+{{--                            <button class="link-already-active-error-close">X</button>--}}
                             <p class="link-already-active-error-first-txt">
                                 You can't upload <br>
                                 another link is still active.<br>

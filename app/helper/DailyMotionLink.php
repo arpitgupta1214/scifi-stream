@@ -23,7 +23,8 @@ class DailyMotionLink
         $streamers = Streamer::where('ip', $this->ip)->get();
 
         if (!$streamers->isEmpty()) {
-            return back()->with('error', 'you already in queue');
+            echo false;
+//            return back()->with('error', 'you already in queue');
         }
         $parts = parse_url($this->link);
         $video_id = str_replace('/video/', '', $parts['path']);
@@ -36,13 +37,14 @@ class DailyMotionLink
         $DailyVideo = json_decode($DailyVidApi->getBody()->getContents());
 
 
-
         $checkVideoAllowLink = $getApi . '?fields=allow_embed';
         $checkVideoAllow = $guzzle->request('get', $checkVideoAllowLink);
         $dailBody = json_decode($checkVideoAllow->getBody());
 
         if ($dailBody->allow_embed == false) {
-            return redirect('home')->with('error', 'Video is not shareable for other web-pages, please choose another one');
+            $error['error'] = true;
+            echo $error;
+//            return redirect('home')->with('error', 'Video is not shareable for other web-pages, please choose another one');
         }
 
 
@@ -82,7 +84,6 @@ class DailyMotionLink
         try {
 
 
-
             Streamer::create([
                 'ip' => $this->ip,
                 'link' => $readyLink,
@@ -98,8 +99,9 @@ class DailyMotionLink
 
         } catch (\Exception $exception) {
 
-            dd($exception);
-            return back()->with('error', ' Ops something went wrong, please try again later!');
+            echo false;
+//            dd($exception);
+//            return back()->with('error', ' Ops something went wrong, please try again later!');
         }
 
 

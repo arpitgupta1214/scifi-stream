@@ -16,7 +16,7 @@
     {{--    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">--}}
     {{--    <meta http-equiv="Pragma" content="no-cache">--}}
     {{--    <meta http-equiv="Expires" content="0">--}}
-    <link rel="shortcut icon" type="image/ico" href="/images/info/{{ $info->favicon ?? '' }}" />
+    <link rel="shortcut icon" type="image/ico" href="/images/info/{{ $info->favicon ?? '' }}"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -27,10 +27,11 @@
 
 </head>
 <body>
-<header >
+<header>
     <div class="container-fluid">
         <div class="mobile-size-sci-fi">
-            <p class="mobile-sidebar-text1 ">sci-fi <span class="mobile-trademark">&#174;</span> communication | <a class="mobile-sidebar-text2">
+            <p class="mobile-sidebar-text1 ">sci-fi <span class="mobile-trademark">&#174;</span> communication | <a
+                    class="mobile-sidebar-text2">
                     science based fiction</a></p>
         </div>
         <nav class="navbar " id="navbar">
@@ -41,11 +42,16 @@
             </a>
             <div class="navbar-links">
                 <ul class="fortestlink">
-                    <li class="nav-item {{ (request()->is('works*' )) ? 'active_link' : '' }}"><a href="{{ route('works') }}">works///</a></li>
-                    <li class="nav-item {{ (request()->is('home*' )) ? 'active_link' : '' }}"><a href="/home">stream///</a></li>
-                    <li class="nav-item {{ (request()->is('children*' )) ? 'active_link' : '' }}"><a href="{{ route('children') }}">children///</a></li>
-                    <li class="nav-item {{ (request()->is('info*' )) ? 'active_link' : '' }}"><a href="{{ route('info') }}">info///</a></li>
-                    <li class="nav-item {{ (request()->is('creature*' )) ? 'active_link' : '' }}"><a href="{{ route('creature') }}">creatures///</a></li>
+                    <li class="nav-item {{ (request()->is('works*' )) ? 'active_link' : '' }}"><a
+                            href="{{ route('works') }}">works///</a></li>
+                    <li class="nav-item {{ (request()->is('home*' )) ? 'active_link' : '' }}"><a
+                            href="/home">stream///</a></li>
+                    <li class="nav-item {{ (request()->is('children*' )) ? 'active_link' : '' }}"><a
+                            href="{{ route('children') }}">children///</a></li>
+                    <li class="nav-item {{ (request()->is('info*' )) ? 'active_link' : '' }}"><a
+                            href="{{ route('info') }}">info///</a></li>
+                    <li class="nav-item {{ (request()->is('creature*' )) ? 'active_link' : '' }}"><a
+                            href="{{ route('creature') }}">creatures///</a></li>
 
                     {{--            <li class="nav-item {{ (request()->is('testpage/en/*' )) ? 'active' : '' }}"><a href="{{ route('testpage', [$locale, 1]) }}">test///</a></li>--}}
                 </ul>
@@ -75,8 +81,6 @@
 <div class="bodyallinside">
     @yield('body')
 </div>
-
-
 
 
 </body>

@@ -6,6 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="f3e4d2be-2579-4279-86a9-50c8fab156a3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helper/DailyMotionLink.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/helper/DailyMotionLink.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helper/SoundCloudLink.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/helper/SoundCloudLink.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helper/VimeoLink.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/helper/VimeoLink.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helper/YoutubeLink.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/helper/YoutubeLink.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/btn-upload-regex.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/btn-upload-regex.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/helper.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/helper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/sound-cloud-control.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/sound-cloud-control.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/testpage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/testpage.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,20 +49,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/assets/js/btn-upload-regex.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="344" column="62" selection-start-line="344" selection-start-column="62" selection-end-line="344" selection-end-column="62" />
-              <folding>
-                <element signature="e#861#12558#0" />
-              </folding>
+            <state relative-caret-position="374">
+              <caret line="209" selection-start-line="209" selection-end-line="209" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/app/helper/DailyMotionLink.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="348">
+              <caret line="41" column="61" lean-forward="true" selection-start-line="41" selection-start-column="61" selection-end-line="41" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -109,9 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/public/assets/js/MyDate.js" />
-        <option value="$PROJECT_DIR$/app/helper/DailyMotionLink.php" />
-        <option value="&lt;187e3d52-bec5-4efd-8006-28c050fd4ecc&gt;/resources/views/layouts/header.blade.php" />
         <option value="&lt;187e3d52-bec5-4efd-8006-28c050fd4ecc&gt;/routes/web.php" />
         <option value="$PROJECT_DIR$/app/helper/User_ip.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
@@ -130,18 +135,15 @@
         <option value="&lt;187e3d52-bec5-4efd-8006-28c050fd4ecc&gt;/app/Http/Controllers/HomeController.php" />
         <option value="&lt;187e3d52-bec5-4efd-8006-28c050fd4ecc&gt;/app/helper/DailyMotionLink.php" />
         <option value="&lt;187e3d52-bec5-4efd-8006-28c050fd4ecc&gt;/app/helper/VimeoLink.php" />
-        <option value="$PROJECT_DIR$/app/helper/VimeoLink.php" />
         <option value="$PROJECT_DIR$/public/assets/js/testsforjs.js" />
         <option value="$PROJECT_DIR$/public/assets/js/share-cp-btn.js" />
         <option value="&lt;187e3d52-bec5-4efd-8006-28c050fd4ecc&gt;/public/assets/js/share-cp-btn.js" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/header.blade.php" />
         <option value="$PROJECT_DIR$/public/assets/js/toggle-btn.js" />
         <option value="&lt;187e3d52-bec5-4efd-8006-28c050fd4ecc&gt;/public/assets/js/toggle-btn.js" />
         <option value="$PROJECT_DIR$/resources/js/app.js" />
         <option value="$PROJECT_DIR$/public/assets/js/moment.js" />
         <option value="$PROJECT_DIR$/public/assets/js/current-streamer-cd.js" />
         <option value="&lt;187e3d52-bec5-4efd-8006-28c050fd4ecc&gt;/public/assets/js/current-streamer-cd.js" />
-        <option value="$PROJECT_DIR$/public/assets/js/sound-cloud-control.js" />
         <option value="&lt;187e3d52-bec5-4efd-8006-28c050fd4ecc&gt;/public/assets/js/sound-cloud-control.js" />
         <option value="$PROJECT_DIR$/resources/views/layouts/footer.blade.php" />
         <option value="&lt;187e3d52-bec5-4efd-8006-28c050fd4ecc&gt;/resources/views/layouts/footer.blade.php" />
@@ -150,16 +152,22 @@
         <option value="&lt;187e3d52-bec5-4efd-8006-28c050fd4ecc&gt;/public/assets/js/sound-control.js" />
         <option value="&lt;187e3d52-bec5-4efd-8006-28c050fd4ecc&gt;/public/assets/js/vimeo-control.js" />
         <option value="$PROJECT_DIR$/public/assets/js/vimeo-control.js" />
-        <option value="$PROJECT_DIR$/public/assets/js/helper.js" />
-        <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
         <option value="&lt;187e3d52-bec5-4efd-8006-28c050fd4ecc&gt;/public/assets/js/helper.js" />
         <option value="&lt;187e3d52-bec5-4efd-8006-28c050fd4ecc&gt;/resources/views/home.blade.php" />
         <option value="$PROJECT_DIR$/public/assets/css/streamer.css" />
-        <option value="$PROJECT_DIR$/public/assets/js/btn-upload-regex.js" />
         <option value="&lt;187e3d52-bec5-4efd-8006-28c050fd4ecc&gt;/public/assets/js/btn-upload-regex.js" />
         <option value="&lt;187e3d52-bec5-4efd-8006-28c050fd4ecc&gt;/public/assets/css/streamer.css" />
-        <option value="$PROJECT_DIR$/app/helper/YoutubeLink.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/public/assets/js/helper.js" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/header.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
+        <option value="$PROJECT_DIR$/public/assets/js/sound-cloud-control.js" />
+        <option value="$PROJECT_DIR$/resources/views/testpage.blade.php" />
+        <option value="$PROJECT_DIR$/app/helper/YoutubeLink.php" />
+        <option value="$PROJECT_DIR$/app/helper/VimeoLink.php" />
+        <option value="$PROJECT_DIR$/app/helper/SoundCloudLink.php" />
+        <option value="$PROJECT_DIR$/public/assets/js/btn-upload-regex.js" />
+        <option value="$PROJECT_DIR$/app/helper/DailyMotionLink.php" />
       </list>
     </option>
   </component>
@@ -456,18 +464,18 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Laravel6\catalog\public" />
-      <recent name="D:\Laravel6\catalog\resources\views\admin\layouts" />
-      <recent name="D:\Laravel6\catalog\app\Http\Controllers" />
-      <recent name="D:\Laravel6\catalog\app\Http\Controllers\adminControllers" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Deskto\Chukis\website\public\assets\js" />
       <recent name="D:\Deskto\Chukis\website\public\assets\images\stream" />
       <recent name="D:\Deskto\Chukis\website\public\assets\css" />
       <recent name="D:\Deskto\Chukis\website\resources\views" />
       <recent name="D:\Deskto\Chukis\website\public\assets\fonts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Laravel6\catalog\public" />
+      <recent name="D:\Laravel6\catalog\resources\views\admin\layouts" />
+      <recent name="D:\Laravel6\catalog\app\Http\Controllers" />
+      <recent name="D:\Laravel6\catalog\app\Http\Controllers\adminControllers" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -595,12 +603,12 @@
       <workItem from="1603797091245" duration="622000" />
       <workItem from="1603821379341" duration="9596000" />
       <workItem from="1603884018515" duration="21988000" />
-      <workItem from="1604143512971" duration="934000" />
+      <workItem from="1604143512971" duration="7792000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1143563000" />
+    <option name="totallyTimeSpent" value="1150421000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -636,30 +644,13 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Remote Host" order="4" visible="true" weight="0.12953092" />
+      <window_info anchor="right" id="Remote Host" order="4" weight="0.12953092" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/database/migrations/2020_08_10_165345_create_streamers_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Streamer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/css/streamer-little-old.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
@@ -710,18 +701,8 @@
     <entry file="file://$PROJECT_DIR$/public/assets/images/stream/error.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js/change-streamer.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/js/mix-cloud-control.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js/modified-alert.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="74" lean-forward="true" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="74" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/js/soon-out-vid-cd.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -758,16 +739,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js/charts-custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/js/youtube-control.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
@@ -778,20 +749,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/testpage.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="105" column="44" lean-forward="true" selection-start-line="105" selection-start-column="44" selection-end-line="105" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helper/DailyMotionLink.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="22" column="60" lean-forward="true" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/js/share-cp-btn.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -799,20 +756,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js/home-page.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/js/MyDate.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/header.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="41" column="34" lean-forward="true" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -840,29 +787,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="107" column="58" selection-start-line="107" selection-start-column="58" selection-end-line="107" selection-end-column="58" />
-          <folding>
-            <element signature="e#40#54#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js/current-streamer-cd-old.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="n#style#0;n#queue#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#queued#0;n#queue#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#queue#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#queued#0;n#queue#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/js/moment.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="531">
@@ -876,33 +800,6 @@
     <entry file="file://$PROJECT_DIR$/public/assets/js/sound-cloud-control-old.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js/current-streamer-cd.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-          <folding>
-            <element signature="n#style#0;n#queue#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#queued#0;n#queue#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#queue#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#queued#0;n#queue#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helper/SoundCloudLink.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="91" column="60" lean-forward="true" selection-start-line="91" selection-start-column="60" selection-end-line="91" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js/sound-cloud-control.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/footer.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -910,31 +807,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js/dailymotion-control.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="57" column="11" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/js/vimeo-control.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js/helper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="67" column="84" selection-start-line="67" selection-start-column="84" selection-end-line="67" selection-end-column="84" />
         </state>
       </provider>
     </entry>
@@ -952,30 +828,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/helper/VimeoLink.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="44" column="55" lean-forward="true" selection-start-line="44" selection-start-column="55" selection-end-line="44" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helper/YoutubeLink.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="37" column="62" lean-forward="true" selection-start-line="37" selection-start-column="62" selection-end-line="37" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js/btn-upload-regex.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="344" column="62" selection-start-line="344" selection-start-column="62" selection-end-line="344" selection-end-column="62" />
-          <folding>
-            <element signature="e#861#12558#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -983,10 +835,169 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="242">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/sound-cloud-control.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="165" column="9" lean-forward="true" selection-start-line="165" selection-start-column="9" selection-end-line="165" selection-end-column="9" />
+          <folding>
+            <element signature="e#40#54#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4048">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/testpage.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/modified-alert.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="74" lean-forward="true" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/home-page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="32" lean-forward="true" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/front.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2134">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/helper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/dailymotion-control.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/current-streamer-cd-old.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="n#style#0;n#queue#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#queued#0;n#queue#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#queue#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#queued#0;n#queue#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/current-streamer-cd.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+          <folding>
+            <element signature="n#style#0;n#queue#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#queued#0;n#queue#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#queue#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#queued#0;n#queue#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/charts-home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/change-streamer.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/charts-custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helper/YoutubeLink.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1096">
+          <caret line="89" column="23" lean-forward="true" selection-start-line="89" selection-start-column="23" selection-end-line="89" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helper/SoundCloudLink.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helper/VimeoLink.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/btn-upload-regex.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="209" selection-start-line="209" selection-end-line="209" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helper/DailyMotionLink.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="41" column="61" lean-forward="true" selection-start-line="41" selection-start-column="61" selection-end-line="41" selection-end-column="61" />
         </state>
       </provider>
     </entry>

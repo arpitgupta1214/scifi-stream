@@ -1,5 +1,3 @@
-
-
 window.mobileCheck = function () {
     let check = false;
     (function (a) {
@@ -9,7 +7,7 @@ window.mobileCheck = function () {
 };
 
 
-function parseDateString (dateString) {
+function parseDateString(dateString) {
     var matchers = [];
     matchers.push(/^[0-9]*$/.source);
     matchers.push(/([0-9]{1,2}\/){2}[0-9]{4}( [0-9]{1,2}(:[0-9]{2}){2})?/.source);
@@ -36,3 +34,4 @@ function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
+
