@@ -36,8 +36,6 @@ class YoutubeLink
         $video = Youtube::getVideoInfo($video_id);
 
 
-
-
         if (!$video) {
             $error['error'] = true;
             echo $error;

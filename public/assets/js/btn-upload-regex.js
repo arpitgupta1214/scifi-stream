@@ -94,7 +94,15 @@ function checkUrlAndGo() {
 
 
                                 setTimeout(function () {
-                                    document.getElementById("link-already-active-error-div").style.visibility = "hidden";
+
+                                    $(".link-already-active-error-div").css({
+                                        "display": "none",
+                                        "visibility": "hidden"
+                                    });
+                                    $(".link-already-active-success-div").css({
+                                        "display": "block",
+                                    });
+
                                 }, 4000);
                             }
                         })
@@ -167,7 +175,15 @@ function checkUrlAndGo() {
 
 
                                 setTimeout(function () {
-                                    document.getElementById("link-already-active-error-div").style.visibility = "hidden";
+
+                                    $(".link-already-active-error-div").css({
+                                        "display": "none",
+                                        "visibility": "hidden"
+                                    });
+                                    $(".link-already-active-success-div").css({
+                                        "display": "block",
+                                    });
+
                                 }, 4000);
 
 
@@ -241,7 +257,15 @@ function checkUrlAndGo() {
 
 
                                 setTimeout(function () {
-                                    document.getElementById("link-already-active-error-div").style.visibility = "hidden";
+
+                                    $(".link-already-active-error-div").css({
+                                        "display": "none",
+                                       "visibility": "hidden"
+                                    });
+                                    $(".link-already-active-success-div").css({
+                                        "display": "block",
+                                    });
+
                                 }, 4000);
                             }
                         })
@@ -314,7 +338,14 @@ function checkUrlAndGo() {
 
 
                                 setTimeout(function () {
-                                    document.getElementById("link-already-active-error-div").style.visibility = "hidden";
+
+                                    $(".link-already-active-error-div").css({
+                                        "display": "none",
+                                        "visibility": "hidden"
+                                    });
+                                    $(".link-already-active-success-div").css({
+                                        "display": "block",
+                                    });
                                 }, 4000);
                             }
                         })
