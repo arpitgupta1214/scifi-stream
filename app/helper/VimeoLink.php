@@ -38,7 +38,8 @@ class VimeoLink
 
 
         if (!$VimVideo) {
-            echo false;
+            $error['error'] = true;
+            echo $error;
 //            return back()->with('error', 'Video Unavailable');
         }
 
@@ -121,7 +122,8 @@ class VimeoLink
         } catch (\Exception $exception) {
 
 //            dd($exception);
-            echo false;
+            $error['error'] = true;
+            echo $error;
 //            return back()->with('error', ' Ops something went wrong, please try again later!');
         }
 

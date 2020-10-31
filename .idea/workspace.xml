@@ -5,18 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3e4d2be-2579-4279-86a9-50c8fab156a3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/helper/DailyMotionLink.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/helper/DailyMotionLink.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/helper/SoundCloudLink.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/helper/SoundCloudLink.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/helper/VimeoLink.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/helper/VimeoLink.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/helper/YoutubeLink.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/helper/YoutubeLink.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/btn-upload-regex.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/btn-upload-regex.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/helper.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/helper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/sound-cloud-control.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/sound-cloud-control.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/testpage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/testpage.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,10 +48,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/helper/DailyMotionLink.php">
+        <entry file="file://$PROJECT_DIR$/app/helper/SoundCloudLink.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="41" column="61" lean-forward="true" selection-start-line="41" selection-start-column="61" selection-end-line="41" selection-end-column="61" />
+            <state relative-caret-position="2550">
+              <caret line="122" column="24" selection-start-line="122" selection-start-column="24" selection-end-line="122" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -163,11 +155,11 @@
         <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
         <option value="$PROJECT_DIR$/public/assets/js/sound-cloud-control.js" />
         <option value="$PROJECT_DIR$/resources/views/testpage.blade.php" />
+        <option value="$PROJECT_DIR$/public/assets/js/btn-upload-regex.js" />
+        <option value="$PROJECT_DIR$/app/helper/DailyMotionLink.php" />
         <option value="$PROJECT_DIR$/app/helper/YoutubeLink.php" />
         <option value="$PROJECT_DIR$/app/helper/VimeoLink.php" />
         <option value="$PROJECT_DIR$/app/helper/SoundCloudLink.php" />
-        <option value="$PROJECT_DIR$/public/assets/js/btn-upload-regex.js" />
-        <option value="$PROJECT_DIR$/app/helper/DailyMotionLink.php" />
       </list>
     </option>
   </component>
@@ -603,12 +595,12 @@
       <workItem from="1603797091245" duration="622000" />
       <workItem from="1603821379341" duration="9596000" />
       <workItem from="1603884018515" duration="21988000" />
-      <workItem from="1604143512971" duration="7792000" />
+      <workItem from="1604143512971" duration="8015000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1150421000" />
+    <option name="totallyTimeSpent" value="1150644000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -628,7 +620,7 @@
       <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.18176973" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="File Transfer" order="0" visible="true" weight="0.21436228" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49626866" visible="true" weight="0.12861736" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49626866" visible="true" weight="0.31404072" />
       <window_info anchor="bottom" id="Database Changes" order="2" />
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50373137" side_tool="true" weight="0.15326902" />
       <window_info anchor="bottom" id="Version Control" order="4" sideWeight="0.4968017" weight="0.19721329" />
@@ -966,24 +958,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/helper/YoutubeLink.php">
+    <entry file="file://$PROJECT_DIR$/app/helper/DailyMotionLink.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1096">
-          <caret line="89" column="23" lean-forward="true" selection-start-line="89" selection-start-column="23" selection-end-line="89" selection-end-column="23" />
+        <state relative-caret-position="438">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/helper/SoundCloudLink.php">
+    <entry file="file://$PROJECT_DIR$/app/helper/YoutubeLink.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+        <state relative-caret-position="549">
+          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/helper/VimeoLink.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
+        <state relative-caret-position="306">
+          <caret line="125" column="24" selection-start-line="125" selection-start-column="24" selection-end-line="125" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -994,10 +986,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/helper/DailyMotionLink.php">
+    <entry file="file://$PROJECT_DIR$/app/helper/SoundCloudLink.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="41" column="61" lean-forward="true" selection-start-line="41" selection-start-column="61" selection-end-line="41" selection-end-column="61" />
+        <state relative-caret-position="2550">
+          <caret line="122" column="24" selection-start-line="122" selection-start-column="24" selection-end-line="122" selection-end-column="24" />
         </state>
       </provider>
     </entry>
