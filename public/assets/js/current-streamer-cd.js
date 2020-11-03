@@ -70,7 +70,7 @@ setInterval(function currentStreamerCD() {
 
     /**  Time To remove Starts*/
 
-    if (hours <= 0 && minutes <= 0 && seconds <= 0) {
+    if (hours <= 0 && minutes <= 0 && seconds <= 0 || hours > 2) {
 
 
         $.ajax({
