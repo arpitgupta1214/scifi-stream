@@ -25,17 +25,13 @@ function clicking() {
 
 
     if (player.isMuted()) {
-        // player.playVideo();
         player.unMute();
-        document.getElementById('unmute_new').style.visibility = 'hidden';
-        document.getElementById('mute_new').style.visibility = 'visible';
-        // $('#mute_new').fadeOut('slowly');
+        // document.getElementById('unmute_new').style.visibility = 'hidden';
+        // document.getElementById('mute_new').style.visibility = 'visible';
     } else {
-        // player.playVideo();
         player.mute();
-        // $('#mute_new').fadeIn();
-        document.getElementById('unmute_new').style.visibility = 'visible';
-        document.getElementById('mute_new').style.visibility = 'hidden';
+        // document.getElementById('unmute_new').style.visibility = 'visible';
+        // document.getElementById('mute_new').style.visibility = 'hidden';
 
     }
 
