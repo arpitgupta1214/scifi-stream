@@ -27,3 +27,9 @@ function shareBtnHide() {
         "display":"none"});
     }, 1000);
 }
+
+function closeShareWindow()
+{
+    $(".share-window").css({
+        "display":"none"});
+}
