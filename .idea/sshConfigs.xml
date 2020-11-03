@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="ltccloudmine.com" id="50a40f2e-f50a-4a8e-a233-93eef93ac216" port="22" customName="checkthisone.com" nameFormat="CUSTOM" username="root">
+        <option name="customName" value="checkthisone.com" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" host="ltccloudmine.com" id="ed5b05c9-c8cc-4a48-86ac-094b24d4a1c0" port="22" customName="checkthisone.com" nameFormat="CUSTOM" username="root">
+        <option name="customName" value="checkthisone.com" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" host="ltccloudmine.com" id="df206e33-13b4-41d9-8bda-2b239761ceaa" port="22" customName="checkthisone.com" nameFormat="CUSTOM" username="root">
+        <option name="customName" value="checkthisone.com" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" host="ltccloudmine.com" id="6ec03f2c-9405-4999-8372-88ba20464356" port="22" customName="checkthisone.com" nameFormat="CUSTOM">
+        <option name="customName" value="checkthisone.com" />
+      </sshConfig>
+    </configs>
+  </component>
+</project>
