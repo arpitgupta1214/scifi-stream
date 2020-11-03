@@ -77,24 +77,19 @@ if (url.toString().indexOf("soundcloud.com") !== -1) {
                         console.log('playing');
                         console.log('clicked on mute');
                         widget.setVolume(0);
-                        // $('#mute_new').fadeIn();
-                        document.getElementById('unmute_new').style.visibility = 'visible';
-                        document.getElementById('mute_new').style.visibility = 'hidden';
-                        // $('#unmute_new').fadeOut('slowly');
-                        // btnMute.hidden = true;
-                        // btnUnMute.hidden = false;
+
+                        // document.getElementById('unmute_new').style.visibility = 'visible';
+                        // document.getElementById('mute_new').style.visibility = 'hidden';
+
                     } else {
                         widget.play();
                         console.log('playing');
                         console.log('clicked on unmute');
                         widget.setVolume(100);
+
                         // document.getElementById('unmute_new').style.visibility = 'hidden';
-                        document.getElementById('unmute_new').style.visibility = 'hidden';
-                        document.getElementById('mute_new').style.visibility = 'visible';
-                        // $('#mute_new').fadeOut('slowly');
-                        // document.getElementById('mute_new').style.visibility = 'hidden';
-                        // btnMute.hidden = false;
-                        // btnUnMute.hidden = true;
+                        // document.getElementById('mute_new').style.visibility = 'visible';
+
                     }
                 });
 
@@ -117,16 +112,16 @@ if (url.toString().indexOf("soundcloud.com") !== -1) {
 
                         widget.getVolume(function (volume) {
                             if (volume === 100) {
-                                console.log('clicked on mute');
+                                // console.log('clicked on mute');
                                 widget.setVolume(0);
-                                $('#mute_new').fadeIn();
-                                document.getElementById('mute_new').style.visibility = 'visible';
+                                // $('#mute_new').fadeIn();
+                                // document.getElementById('mute_new').style.visibility = 'visible';
                                 // btnMute.hidden = true;
                                 // btnUnMute.hidden = false;
                             } else {
                                 console.log('clicked on unmute');
                                 widget.setVolume(100);
-                                $('#mute_new').fadeOut('slowly');
+                                // $('#mute_new').fadeOut('slowly');
                                 // btnMute.hidden = false;
                                 // btnUnMute.hidden = true;
                             }
