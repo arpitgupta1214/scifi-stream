@@ -111,6 +111,7 @@ if (stream.includes('dailymotion.com'))
             // player.toggleMuted()
 
 
+            document.getElementById('mute_new').style.display = 'none';
             var mute = document.getElementById('mute_new');
             var unmute = document.getElementById('unmute_new');
             var style = window.getComputedStyle(mute);
@@ -118,16 +119,17 @@ if (stream.includes('dailymotion.com'))
 
             if (style.visibility !== 'hidden') {
                 player.setMuted(true);
+
                 // $('#mute_new').fadeIn();
                 mute.style.visibility = 'hidden';
-                unmute.style.visibility = 'visible';
+                // unmute.style.visibility = 'visible';
                 // btnMute.hidden = false;
                 // btnUnMute.hidden = true;
             } else {
                 player.setMuted(false);
                 // $('#mute_new').fadeOut('slowly');
                 mute.style.visibility = 'visible';
-                unmute.style.visibility = 'hidden';
+                // unmute.style.visibility = 'hidden';
                 // btnMute.hidden = true;
                 // btnUnMute.hidden = false;
 
@@ -139,11 +141,10 @@ if (stream.includes('dailymotion.com'))
 
             }
 
-
         });
 
         $(window).keypress(function(e) {
-
+            document.getElementById('mute_new').style.display = 'none';
 
             if (e.which === 32)
             {
