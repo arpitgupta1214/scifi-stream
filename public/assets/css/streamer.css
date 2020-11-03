@@ -267,6 +267,7 @@ html, body {
 
 
 .mute_new {
+    display: none;
     position: absolute;
     visibility: visible;
     width: 11vw;
@@ -278,6 +279,7 @@ html, body {
 }
 
 .unmute_new {
+    display: none;
     position: absolute;
     visibility: hidden;
     width: 11vw;
@@ -296,7 +298,12 @@ html, body {
     /*min-width: 250px;*/
     /*max-height: 700px;*/
     display: block;
-
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 
     /*top: 170px;*/
 }
@@ -387,6 +394,13 @@ html, body {
     color: black;
     text-align: left;
     font-weight: bold;
+    outline: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .btn-link:hover {
@@ -398,6 +412,13 @@ html, body {
     pointer-events: painted;
     text-decoration: none;
     font-weight: bold;
+    outline: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 
 }
 
@@ -615,8 +636,14 @@ a.close.disabled {
 
 }
 
+.modal-backdrop.out {
+
+    z-index: -1;
+}
+
 .modal-backdrop.in {
     opacity: 0;
+    z-index: -5 !important;
 }
 
 .modal-content {
