@@ -28,23 +28,16 @@ function VimeoMute()
         // console.log(volume);
         if (volume == 1)
         {
-            // btnMute.hidden = false;
-            // btnUnMute.hidden = true;
-            player.setVolume(0);
-            // $('#mute_new').fadeIn();
-            document.getElementById('unmute_new').style.visibility = 'visible';
-            document.getElementById('mute_new').style.visibility = 'hidden';
 
-            // window.stop();
+            player.setVolume(0);
+            // document.getElementById('unmute_new').style.visibility = 'visible';
+            // document.getElementById('mute_new').style.visibility = 'hidden';
         } else {
-            // btnMute.hidden = true;
-            // btnUnMute.hidden = false;
             player.play();
             player.setVolume(1);
-            document.getElementById('unmute_new').style.visibility = 'hidden';
-            document.getElementById('mute_new').style.visibility = 'visible';
-            // $('#mute_new').fadeOut('slowly');
-            // window.stop();
+            // document.getElementById('unmute_new').style.visibility = 'hidden';
+            // document.getElementById('mute_new').style.visibility = 'visible';
+
         }
 
     });
