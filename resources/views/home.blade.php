@@ -33,6 +33,7 @@
 
         @endif
 
+
         <input id="user_ip_is_active" value="{{ $user_ip }}" hidden>
 
         @if($soonOutVids_ID != null)
@@ -80,11 +81,11 @@
         <div class="container-fluid row ">
             <div class="ifr-div col-12  padding row">
 
-
                 <div class="iframe-mine-upper-div text-center container-fluid col-md-12 col-lg-6 col-xl-6" >
                     <div class="h3-iframe" >
                         <div class="upload-link-h3-div">
-                            <p class="upload-link-h3 " type="button" data-toggle="modal"  data-target="#myModal" onclick="topFunction()">UPLOAD
+                            <p class="upload-link-h3 " type="button" data-toggle="modal"
+                               data-target="#myModal" onclick="topFunction(), closeShareWindow()">UPLOAD
                                 LINK</p>
                         </div>
 
@@ -199,7 +200,7 @@
             <div>
 
                 <!-- Modal -->
-                <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal fade" id="myModal" role="dialog" >
                     <div class="modal-dialog">
 
 
