@@ -670,6 +670,19 @@ a.close.disabled {
     font-family: Streamis;
 
 }
+.btn-link:focus {
+    background: #ff00ff;
+    color: #000;
+    user-focus: none;
+    outline: none;
+    border-color: #000;
+}
+
+.btn-link:hover {
+    color: white;
+
+}
+
 
 .input-link::placeholder, .stream-duration-input::placeholder {
     color: #000;
