@@ -36,7 +36,7 @@ function checkUrlAndGo() {
                 time: time
             };
 
-            if (url.toString().indexOf("youtube.com") !== -1) {
+            if (url.toString().indexOf("youtube.com") !== -1 || url.toString().indexOf("youtu.be") !== -1) {
                 YouTubeValidateUrl();
 
                 if (YouTubeValidateUrl()) {

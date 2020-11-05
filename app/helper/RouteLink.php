@@ -35,7 +35,10 @@ class RouteLink
         $facebook = new FacebookLink();
 
 
-        if ($check->checkHost() == 'www.youtube.com' or $check->checkHost() == 'youtube.com' or  $check->checkHost() == 'www.youtu.be')
+        if ($check->checkHost() == 'www.youtube.com'
+            or $check->checkHost() == 'youtube.com'
+            or  $check->checkHost() == 'www.youtu.be'
+            or $check->checkHost() == 'youtu.be')
         {
 
            return $youtube->youtubeStreamer([
