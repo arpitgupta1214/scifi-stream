@@ -25,11 +25,10 @@ class DailyMotionLink
         if (!$streamers->isEmpty()) {
             $error['error'] = true;
             echo $error;
-//            return back()->with('error', 'you already in queue');
+            //            return back()->with('error', 'you already in queue');
         }
         $parts = parse_url($this->link);
         $video_id = str_replace('/video/', '', $parts['path']);
-
 
         $guzzle = new Client();
         $getApi = 'https://api.dailymotion.com/video/' . $video_id;
@@ -39,13 +38,14 @@ class DailyMotionLink
 
 
         $checkVideoAllowLink = $getApi . '?fields=allow_embed';
+
         $checkVideoAllow = $guzzle->request('get', $checkVideoAllowLink);
         $dailBody = json_decode($checkVideoAllow->getBody());
 
         if ($dailBody->allow_embed == false) {
             $error['error'] = true;
             echo $error;
-//            return redirect('home')->with('error', 'Video is not shareable for other web-pages, please choose another one');
+            //            return redirect('home')->with('error', 'Video is not shareable for other web-pages, please choose another one');
         }
 
 
@@ -97,17 +97,12 @@ class DailyMotionLink
             ]);
 
             return back()->with('message', 'queue succeed');
-
         } catch (\Exception $exception) {
 
             $error['error'] = true;
             echo $error;
-//            dd($exception);
-//            return back()->with('error', ' Ops something went wrong, please try again later!');
+            //            dd($exception);
+            //            return back()->with('error', ' Ops something went wrong, please try again later!');
         }
-
-
     }
-
-
 }

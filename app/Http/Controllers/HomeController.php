@@ -106,7 +106,6 @@ class HomeController extends Controller
 
 
         return view('home', compact('attribute', 'locale', 'info', 'three', 'first', 'StreamersQuantity', 'linksWaiting', 'forID', 'currentStreaming', 'soonOut', 'soonOutVid', 'soonOutVids_ID', 'user_ip'));
-
     }
 
     public function streaming($locale, $id)
@@ -121,7 +120,7 @@ class HomeController extends Controller
 
 
 
-//        sleep(1);
+        //        sleep(1);
 
 
         $this->validate(request(), [
@@ -158,16 +157,13 @@ class HomeController extends Controller
         if (Streamer::count() < 4) {
 
             $error = Session::get('error');
-            if (is_string($error))
-            {
+            if (is_string($error)) {
                 return back()->with('error', $error);
             }
-           return redirect('home');
+            return redirect('home');
         }
 
         return back();
-
-
     }
 
     public function cleanStreams()
@@ -180,11 +176,10 @@ class HomeController extends Controller
     public function jsDeleteStream($id)
     {
 
-
+        // return "id: $id";
         Streamer::find($id)->delete();
 
         return back();
-
     }
 
 
@@ -216,7 +211,7 @@ class HomeController extends Controller
         $productsIO = Product::with('images')->where('favorite', 1)->orderByDesc('created_at')->get();
         $productsRandom = Product::with('images')->inRandomOrder()->get();
 
-//        dd($productsRandom);
+        //        dd($productsRandom);
 
 
         App::setLocale($locale);
@@ -233,7 +228,6 @@ class HomeController extends Controller
         $attribute = Attribute::first();
 
         return view('contact', compact('locale', 'attribute', 'info'));
-
     }
 
     public function about($locale)
@@ -253,23 +247,27 @@ class HomeController extends Controller
         $data = [
             'name' => 'attributes',
 
-            'en' => ['title' => 'Title',
+            'en' => [
+                'title' => 'Title',
                 'description' => 'Description',
                 'logo' => 'Logo',
                 'meta_words' => 'Meta Words',
                 'web_nav_item_home' => 'Home',
                 'web_nav_item_catalog' => 'Catalog',
                 'web_nav_item_about' => 'About',
-                'web_nav_item_contact' => 'Contact',],
+                'web_nav_item_contact' => 'Contact',
+            ],
 
-            'ka' => ['title' => 'სათაური',
+            'ka' => [
+                'title' => 'სათაური',
                 'description' => 'აღწერა',
                 'logo' => 'ლოგო',
                 'meta_words' => 'მეტა სიტყვები',
                 'web_nav_item_home' => 'მთავარი',
                 'web_nav_item_catalog' => 'კატალოგი',
                 'web_nav_item_about' => 'ჩვენს შესახებ',
-                'web_nav_item_contact' => 'კონტაქტი',],
+                'web_nav_item_contact' => 'კონტაქტი',
+            ],
         ];
         Attribute::create($data);
 
@@ -320,8 +318,6 @@ class HomeController extends Controller
 
     public function policy()
     {
-
-
     }
 
 
@@ -331,22 +327,19 @@ class HomeController extends Controller
         $arr = Streamer::all();
         $ipHere = 0;
 
-        foreach ($arr as $one){
+        foreach ($arr as $one) {
 
-            if ($one->ip == request()->ip()){
-                $ipHere ++;
+            if ($one->ip == request()->ip()) {
+                $ipHere++;
             }
-
         }
 
-        if ($ipHere > 0 ){
+        if ($ipHere > 0) {
             dd('false');
             return false;
         }
         dd('true');
         return true;
-
-
     }
 
     public function testpage($locale)
@@ -361,11 +354,11 @@ class HomeController extends Controller
 
 
 
-//        $numbers = array_column($array->toArray(), 'video_duration');
-//        $min = min($numbers);
-//        $max = max($numbers);
+        //        $numbers = array_column($array->toArray(), 'video_duration');
+        //        $min = min($numbers);
+        //        $max = max($numbers);
 
-//        dd($min);
+        //        dd($min);
 
         ClearStream::clear();
         $info = Info::with('slides', 'partners')->get()->first();
@@ -380,10 +373,10 @@ class HomeController extends Controller
         $soon = new SoonOut();
 
         $soonOut = $soon->vid();
-//        $now = Carbon::now()->timezone('asia/tbilisi');
-//
-//        $soonOutVid = $now->addSeconds($soonOut)->format('H:i:s');
-//        dd($soonOutVid);
+        //        $now = Carbon::now()->timezone('asia/tbilisi');
+        //
+        //        $soonOutVid = $now->addSeconds($soonOut)->format('H:i:s');
+        //        dd($soonOutVid);
 
         $forID = 0;
         if ($forID >= 1) {
@@ -406,7 +399,5 @@ class HomeController extends Controller
 
 
         return view('testpage', compact('attribute', 'locale', 'info', 'three', 'first', 'StreamersQuantity', 'linksWaiting', 'forID', 'currentStreaming', 'soonOut'));
-
     }
-
 }

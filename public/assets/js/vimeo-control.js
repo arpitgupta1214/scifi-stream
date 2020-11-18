@@ -1,61 +1,37 @@
+var btnMute = document.getElementById("mute");
+var btnUnMute = document.getElementById("unmute");
 
-var btnMute = document.getElementById('mute');
-var btnUnMute = document.getElementById('unmute');
-
-var video = document.getElementById('stream');
+var video = document.getElementById("stream");
 
 var player;
 
 function vimeoVideoControl() {
     player = new Vimeo.Player(video);
 
-    if (window.mobileCheck()){
-        player.ready().then(function() {
+    if (window.mobileCheck()) {
+        player.ready().then(function () {
             player.play();
             VimeoMute();
             player.setVolume(0);
         });
     } else {
-        VimeoMute()
+        VimeoMute();
     }
 }
 
-
-
-function VimeoMute()
-{
-    player.getVolume().then(function(volume) {
-        // console.log(volume);
-        if (volume == 1)
-        {
-
-            player.setVolume(0);
-            // document.getElementById('unmute_new').style.visibility = 'visible';
-            // document.getElementById('mute_new').style.visibility = 'hidden';
-        } else {
+function VimeoMute() {
+    player.getPaused().then((paused) => {
+        if (paused) {
             player.play();
             player.setVolume(1);
-            // document.getElementById('unmute_new').style.visibility = 'hidden';
-            // document.getElementById('mute_new').style.visibility = 'visible';
-
+        } else {
+            player.getVolume().then((volume) => {
+                if (volume == 1) {
+                    player.setVolume(0);
+                } else {
+                    player.setVolume(1);
+                }
+            });
         }
-
     });
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
